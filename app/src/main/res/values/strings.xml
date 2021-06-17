@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApplication</string>
+    <string name="title">Simple Weather</string>
+    <string name="tabcity1">RIO DE JANEIRO</string>
+    <string name="tabcity2">BEIJING</string>
+    <string name="tabcity3">LOS ANGELES</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    >
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewtemp"
+            android:text="38"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/textViewrh"
+            android:text="0%"
+            android:gravity="center"
+            android:textColor="@color/textColor2"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgWeatherIcon"
+            android:src="@drawable/c04d"
+            android:layout_width="75dp"
+            android:layout_height="75dp"></ImageView>
+        <TextView
+            android:text="03:00 PM"
+            android:id="@+id/textViewtime"
+            android:gravity="center"
+            android:textColor="@color/textDarkGray"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <View style="@style/Divider.Vertical"/>
+    </LinearLayout>
+</LinearLayout>
